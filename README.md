@@ -60,7 +60,7 @@
       <a href="#-ABDCLIP">Paper</a>
       <ul>
         <li><a href="#-introduction">Introduction</a></li>
-        <li><a href="#-core-methods">Method</a></li>
+        <li><a href="#-core-methods">Core Methods</a></li>
         <li><a href="#-experimental-results">Experimental Results</a></li>
       </ul>
     </li>
