@@ -122,10 +122,12 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 **Submit UI**
 [![Sub ui][Sub-ui]](https://arxiv.org/abs/2409.15968)    
 
+
 ## **Built With**  
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
 * [![LayUI][LayUI.com]][LayUI-url]
+* [<img src="https://res.layui.dev/static/images/layui/logo.png" alt="LayUI" height="28">][LayUI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
