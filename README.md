@@ -72,7 +72,7 @@
       </ul>
     </li>
     <li>
-      <a href="#quick start">Quick Start</a>
+      <a href="#quick-start">Quick Start</a>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -85,11 +85,10 @@
 
 <!-- ABOUT THE PROJECT -->
 # 📘 **ABD: Adversarial Backdoor Defense**
-## Introduction
-[Thesis Title：Adversarial Backdoor Defense in CLIP](https://arxiv.org/abs/2409.15968)  
+## Introduction 
 This repository contains the code and implementation details for our paper **Adversarial Backdoor Defense in CLIP**.
 
-> **Thesis Link**：[Link](https://arxiv.org/abs/2409.15968)  
+> **Paper Link**：[arxiv](https://arxiv.org/abs/2409.15968)  
 > **Abstract**：
 Multimodal contrastive pretraining, exemplified by models like CLIP, has been found to be vulnerable to backdoor attacks. While current backdoor defense methods primarily employ conventional data augmentation to create augmented samples aimed at feature alignment, these methods fail to capture the distinct features of backdoor samples, resulting in suboptimal defense performance. Observations reveal that adversarial examples and backdoor samples exhibit similarities in the feature space within the compromised models. Building on this insight, we propose Adversarial Backdoor Defense (ABD), a novel data augmentation strategy that aligns features with meticulously crafted adversarial examples. This approach effectively disrupts the backdoor association. Our experiments demonstrate that ABD provides robust defense against both traditional uni-modal and multimodal backdoor attacks targeting CLIP. Compared to the current state-of-the-art defense method, CleanCLIP, ABD reduces the attack success rate by 8.66% for BadNet, 10.52% for Blended, and 53.64% for BadCLIP, while maintaining a minimal average decrease of just 1.73% in clean accuracy.
 
@@ -126,7 +125,6 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 ## **Built With**  
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
-* [![LayUI][LayUI.com]][LayUI-url]
 * [<img src="https://res.layui.dev/static/images/layui/logo.png" alt="LayUI" height="28">][LayUI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -234,4 +232,4 @@ Some portions of the code in this repository are adaptations from the following 
 [Pytorch.com]: https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
 [Pytorch-url]: https://flask.palletsprojects.com/en/stable/
 [LayUI.com]: https://res.layui.dev/static/images/layui/logo.png
-[LayUI-url]: https://flask.palletsprojects.com/en/stable/
+[LayUI-url]: https://layui.dev/
