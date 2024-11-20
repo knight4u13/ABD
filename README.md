@@ -96,22 +96,23 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 [![Method Overview][Paper-image-1]](https://arxiv.org/abs/2409.15968)   
 
 ## ⚙️ Core Methods
+
 1. **Adversarial Example Generation**：Combine adversarial training with backdoor loss to generate samples that meet the backdoor triggering characteristics.  
 2. **Data Augmentation**：Replace backdoor samples with adversarial samples to enhance the robustness of the model.  
 3. **Efficient Defense**：Experiments show that ABD performs well in both traditional and CLIP-specific backdoor attacks, outperforming existing defense methods such as CleanCLIP. 
 [![Iluustration][Paper-image-2]](https://arxiv.org/abs/2409.15968)  
 
 ## 📊 Experimental Results
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
- THE PERFORMANCE(%) OF METHODS ON THE IMAGENET-1K. THE BEST RESULTS ARE SHOWN IN BOLD.
+THE PERFORMANCE(%) OF METHODS ON THE IMAGENET-1K. THE BEST RESULTS ARE SHOWN IN BOLD.
 [![TableI][Paper-table-1]](https://arxiv.org/abs/2409.15968)
 
- THE EFFECTS OF ADVERSARIAL PATCH.THE BEST RESULTS ARE SHOWN IN BOLD.
+THE EFFECTS OF ADVERSARIAL PATCH.THE BEST RESULTS ARE SHOWN IN BOLD.
 [![TableII][Paper-table-2]](https://arxiv.org/abs/2409.15968)  
 
- THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
+THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
 [![TableIII][Paper-table-3]](https://arxiv.org/abs/2409.15968)  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -119,7 +120,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 > The platform provides a visual experiment and operation interface for the ABD method, supporting users to quickly test and reproduce the experimental results in the paper.
 
-## 🛠️ Main functions
+## 🛠️ Main Functions
 
 - **Experimental visualization**：Show the comparison between adversarial samples and backdoor samples, the changing trend of model performance, etc. 
 - **Model fine-tuning and evaluation**：Provides one-click model fine-tuning and testing functions, supporting CLIP models. 
@@ -134,7 +135,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 [![Sub ui][Sub-ui]](https://arxiv.org/abs/2409.15968)    
 
 
-## 🏗️ Built With  
+## 🏗️ Built With
 
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
