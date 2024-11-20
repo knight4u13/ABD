@@ -67,7 +67,7 @@
     <li>
       <a href="#-platform">Backdoor Security Platform</a>
       <ul>
-        <li><a href="#-main-functions">Main Functions</a></li>
+        <li><a href="#-Main-Functions">Main Functions</a></li>
         <li><a href="#-ui">UI</a></li>
         <li><a href="#-built-with">Built With</a></li>
       </ul>
@@ -85,7 +85,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-# 📘 **ABDCLIP**
+# 📘 ABDCLIP
 ## ✨ Introduction 
 This repository contains the code and implementation details for our paper **Adversarial Backdoor Defense in CLIP**.
 
@@ -95,7 +95,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 [![Method Overview][Paper-image-1]](https://arxiv.org/abs/2409.15968)   
 <!-- checkpoint: finish page -->
-## ⚙️ **Core Methods**
+## ⚙️ Core Methods
 1. **Adversarial Example Generation**：Combine adversarial training with backdoor loss to generate samples that meet the backdoor triggering characteristics.  
 2. **Data Augmentation**：Replace backdoor samples with adversarial samples to enhance the robustness of the model.  
 3. **Efficient Defense**：Experiments show that ABD performs well in both traditional and CLIP-specific backdoor attacks, outperforming existing defense methods such as CleanCLIP. 
@@ -113,12 +113,12 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 > The platform provides a visual experiment and operation interface for the ABD method, supporting users to quickly test and reproduce the experimental results in the paper.
 
-## 🛠️ **Main functions**  
+## 🛠️ Main functions
 - **Experimental visualization**：Show the comparison between adversarial samples and backdoor samples, the changing trend of model performance, etc. 
 - **Model fine-tuning and evaluation**：Provides one-click model fine-tuning and testing functions, supporting CLIP models. 
 - **Data processing and analysis**：Contains functional modules such as backdoor sample insertion, adversarial perturbation generation, and result statistics.
 
-## 🖼️ **UI**  
+## 🖼️ UI
 **Main UI**
 [![Main ui][Main-ui]](https://arxiv.org/abs/2409.15968)   
 
@@ -126,7 +126,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 [![Sub ui][Sub-ui]](https://arxiv.org/abs/2409.15968)    
 
 
-## 🏗️ **Built With**  
+## 🏗️ Built With  
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
 * [<img src="https://res.layui.dev/static/images/layui/logo.png" alt="LayUI" height="28">][LayUI-url]
