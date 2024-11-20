@@ -229,5 +229,7 @@ Some portions of the code in this repository are adaptations from the following 
 [Sub-ui]: images/defense.png
 [Flask.com]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com/en/stable/
+[Pytorch.com]: https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
 [Pytorch-url]: https://flask.palletsprojects.com/en/stable/
+[LayUI.com]: https://res.layui.dev/static/images/layui/logo.png
 [LayUI-url]: https://flask.palletsprojects.com/en/stable/
