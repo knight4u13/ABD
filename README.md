@@ -95,7 +95,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 [![Method Overview][Paper-image-1]](https://arxiv.org/abs/2409.15968)   
 <!-- checkpoint: finish page -->
-## ⚙️ **Core Methods**:
+## ⚙️ **Core Methods**
 1. **Adversarial Example Generation**：Combine adversarial training with backdoor loss to generate samples that meet the backdoor triggering characteristics.  
 2. **Data Augmentation**：Replace backdoor samples with adversarial samples to enhance the robustness of the model.  
 3. **Efficient Defense**：Experiments show that ABD performs well in both traditional and CLIP-specific backdoor attacks, outperforming existing defense methods such as CleanCLIP. 
@@ -103,9 +103,10 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 ## 📊 Experimental Results
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-[![Table-1][Paper-table-1]](https://arxiv.org/abs/2409.15968)  
-[![Table-2][Paper-table-2]](https://arxiv.org/abs/2409.15968)  
-[![Table-3][Paper-table-3]](https://arxiv.org/abs/2409.15968)  
+
+[![TableI][Paper-table-1]](https://arxiv.org/abs/2409.15968)  
+[![TableII][Paper-table-2]](https://arxiv.org/abs/2409.15968)  
+[![TableIII][Paper-table-3]](https://arxiv.org/abs/2409.15968)  
 ---
 
 # 💻 Platform
