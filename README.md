@@ -67,7 +67,7 @@
     <li>
       <a href="#-platform">Backdoor Security Platform</a>
       <ul>
-        <li><a href="#-Main-Functions">Main Functions</a></li>
+        <li><a href="#-main-functions">Main Functions</a></li>
         <li><a href="#-ui">UI</a></li>
         <li><a href="#-built-with">Built With</a></li>
       </ul>
@@ -94,7 +94,7 @@ This repository contains the code and implementation details for our paper **Adv
 Multimodal contrastive pretraining, exemplified by models like CLIP, has been found to be vulnerable to backdoor attacks. While current backdoor defense methods primarily employ conventional data augmentation to create augmented samples aimed at feature alignment, these methods fail to capture the distinct features of backdoor samples, resulting in suboptimal defense performance. Observations reveal that adversarial examples and backdoor samples exhibit similarities in the feature space within the compromised models. Building on this insight, we propose Adversarial Backdoor Defense (ABD), a novel data augmentation strategy that aligns features with meticulously crafted adversarial examples. This approach effectively disrupts the backdoor association. Our experiments demonstrate that ABD provides robust defense against both traditional uni-modal and multimodal backdoor attacks targeting CLIP. Compared to the current state-of-the-art defense method, CleanCLIP, ABD reduces the attack success rate by 8.66% for BadNet, 10.52% for Blended, and 53.64% for BadCLIP, while maintaining a minimal average decrease of just 1.73% in clean accuracy.
 
 [![Method Overview][Paper-image-1]](https://arxiv.org/abs/2409.15968)   
-<!-- checkpoint: finish page -->
+
 ## ⚙️ Core Methods
 1. **Adversarial Example Generation**：Combine adversarial training with backdoor loss to generate samples that meet the backdoor triggering characteristics.  
 2. **Data Augmentation**：Replace backdoor samples with adversarial samples to enhance the robustness of the model.  
@@ -104,9 +104,15 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 ## 📊 Experimental Results
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[![TableI][Paper-table-1]](https://arxiv.org/abs/2409.15968)  
+ THE PERFORMANCE(%) OF METHODS ON THE IMAGENET-1K. THE BEST RESULTS ARE SHOWN IN BOLD.
+[![TableI][Paper-table-1]](https://arxiv.org/abs/2409.15968)
+
+ THE EFFECTS OF ADVERSARIAL PATCH.THE BEST RESULTS ARE SHOWN IN BOLD.
 [![TableII][Paper-table-2]](https://arxiv.org/abs/2409.15968)  
+
+ THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
 [![TableIII][Paper-table-3]](https://arxiv.org/abs/2409.15968)  
+
 ---
 
 # 💻 Platform
@@ -114,11 +120,13 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 > The platform provides a visual experiment and operation interface for the ABD method, supporting users to quickly test and reproduce the experimental results in the paper.
 
 ## 🛠️ Main functions
+
 - **Experimental visualization**：Show the comparison between adversarial samples and backdoor samples, the changing trend of model performance, etc. 
 - **Model fine-tuning and evaluation**：Provides one-click model fine-tuning and testing functions, supporting CLIP models. 
 - **Data processing and analysis**：Contains functional modules such as backdoor sample insertion, adversarial perturbation generation, and result statistics.
 
 ## 🖼️ UI
+
 **Main UI**
 [![Main ui][Main-ui]](https://arxiv.org/abs/2409.15968)   
 
@@ -127,6 +135,7 @@ Multimodal contrastive pretraining, exemplified by models like CLIP, has been fo
 
 
 ## 🏗️ Built With  
+
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
 * [<img src="https://res.layui.dev/static/images/layui/logo.png" alt="LayUI" height="28">][LayUI-url]
