@@ -121,7 +121,7 @@ THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
 
 > The platform provides a visual experiment and operation interface for the ABD method, supporting users to quickly test and reproduce the experimental results in the paper.
 
-## 🛠️ Main Functions
+## ✨ Main Functions
 
 - **Experimental visualization**：Show the comparison between adversarial samples and backdoor samples, the changing trend of model performance, etc. 
 - **Model fine-tuning and evaluation**：Provides one-click model fine-tuning and testing functions, supporting CLIP models. 
@@ -129,7 +129,7 @@ THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🖼️ UI
+## ✨ UI
 
 **Main UI**
 [![Main ui][Main-ui]](https://arxiv.org/abs/2409.15968)   
@@ -139,7 +139,7 @@ THE EFFECTS OF BACKDOOR LOSS IN ADVCLIP.THE BEST RESULTS ARE SHOWN IN BOLD.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🏗️ Built With
+## ✨ Built With
 
 * [![Pytorch][Pytorch.com]][Pytorch-url]
 * [![Flask][Flask.com]][Flask-url]
